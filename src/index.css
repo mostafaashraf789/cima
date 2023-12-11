@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Boogaloo', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Tilt+Neon&display=swap');
+
+body{
+    background-color: black;
+}
