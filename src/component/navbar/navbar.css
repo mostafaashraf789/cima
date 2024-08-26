@@ -1,0 +1,13 @@
+nav{
+    box-shadow: 5px 0px  30px red;
+    border-radius: 30px ;
+    width: 80%;
+    margin: 20px auto;
+}
+
+nav ul > li:hover {
+transform: scale(0.95);
+}
+nav ul > li {
+transition: 0.5s all;
+}

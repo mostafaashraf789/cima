@@ -22,9 +22,9 @@ let {getSearch} = useContext(shanta)
   return (
     <>
 
-<nav className="navbar navbar-expand-lg bg-body-tertiary">
+<nav className="navbar navbar-expand-lg  " data-bs-theme="dark">
   <div className="container-fluid">
-    <Link className="navbar-brand ms-5 " to="movies"><img width={150} src="./Netflix_2015_logo.svg.png
+    <Link className="navbar-brand ms-5 " to="/"><img width={150} src="./Netflix_2015_logo.svg.png
     " alt="" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

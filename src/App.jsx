@@ -1,5 +1,5 @@
 import React from "react";
-import { RouterProvider, createHashRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createHashRouter } from "react-router-dom";
 
 import Movies from "./component/movies/Movies";
 import Series from "./component/series/Series";
@@ -11,8 +11,8 @@ export default function App() {
       path: "/",
       element: <Layout />,
       children: [
-        { index: true, element: <Movies /> },
-        { path: "series", element: <Series /> },
+        {  index : true, element: <Movies /> },
+        { path: "/series", element: <Series /> },
       ],
     },
   ]);
